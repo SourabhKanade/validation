@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/kevin.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.nav-link{
+    font-size: large;
+} 
+.adjust {
+        height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        top: 53px;
+        font-size: 39px;
+        padding: 0px 119px;
+        font-weight: bold;
+        font-family: 'Montserrat',sans-serif;
+   }
+
+.col-12 {
+    text-align: center;
+}
+
+.question {
+    font-size: large;
+    align-items: flex-start;
+    position: relative;
+    left: 45px;
+}   
+
+.form-check { 
+    font-size: 10px;
+    position: none;
+    margin-top: 8px;
+    float: left;
+    margin-left: 9.5em;
+}
+.form { 
+    font-size: large;
+    margin-top: -8px;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    border-radius: 0.25em;
+    margin-left: 0px;
+}
+.form-control {
+    display: block;
+    width: 86%;
+    position: relative;
+    left: 29px;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: -1.25rem;
+
+}
+.head-search{
+    -webkit-appearance: none;
+    width: 41%;
+    position: absolute;
+    left: 36%;
+    margin: -23px;
+    padding: 0.6em 0.7em;
+    border-radius: 6px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: inherit;
+
+}
+.nav-logo {
+    width: 37px;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 5rem;
+    font-size: 1.25rem;
+    border-radius: 12.3px;
+
+    text-align: center;
+}
+.bg-light {
+    background-color: #f8f9fa;
+    border-radius: 0px;
+}
+.form-group {
+    align-items: center;
+
+}
+
+.context {
+   /* text-align: center; */
+    padding: 0% 0%;
+} 
+.text-danger { 
+    align-items: center;
+    position: relative;
+    left: 45px;
+
+}
+.space {
+    display: block;
+    margin: 10px 0;
+    font-size: 0%;
+    content:" ";
+
+ } 
+.outline{
+        background-color: #f8f9fa;
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        z-index: 999;
+        padding: 79px -5px;
+        width: 480px;
+        border-radius: 10%;
+        transform: translate(-50%,-50%);
+        background: rgb(188 191 185 / 50%);
+        box-shadow: -1px 4px 28px 0px rgb(113 219 70 / 60%);
+        opacity: initial;
+    }
